@@ -1,4 +1,4 @@
 # PixelPerfectPSD
 PixelPerfect on Avocodo (PSD)
 
-From template PSD to HTML page
+From PSD template to HTML page
