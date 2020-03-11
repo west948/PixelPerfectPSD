@@ -1,0 +1,174 @@
+				/* PixelPerfect.html/css */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+	/* Background */
+.back{
+	width: 1440px;
+	height: 1700px;
+	background-color: #e8e8e8;
+	position: relative;
+	margin: 0 auto;
+}
+	/* !-Background */
+
+	/* IMG and Lines */
+div.eclipse{
+	width: 1190px;
+	height: 1064px;
+	position: absolute;
+	left: 142px;
+	top: 115px;
+	background: url(IMG/Ellipse_1_copy.png) no-repeat;
+}
+img.img{
+	width: 821px;
+	height: 541px;
+	padding: 10px;
+	background-color: white;
+	position: absolute;
+	left: 289px;
+	top: 358px;
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+}
+	/* !-IMG and Lines */
+
+	/* TopText */
+div.travel{
+	color: #273d46;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2.8px;
+	text-transform: uppercase;
+	font-family: "Arial MT";
+	opacity: 0.6;
+	display: inline-block;
+	margin-left: 671px;
+	margin-top: 168px;
+}
+div.topText {
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	width: 731px;
+	height: 75px;
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 36px;
+	font-weight: 400;
+	margin-left: 347px;
+	margin-top: 15px;
+	line-height: 50px;
+	margin-bottom: 77px;
+	line-height: 50px;
+}
+	/* !-TopText */
+	
+	/* BottomText */
+div.bottomImageText {
+	position: relative;
+	z-index: 3;
+	width: 736px;
+	opacity: 0.8;
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 40px;
+	margin-left: 334px;
+	margin-top: 735px;
+}
+div.bottomImageText p.one{
+	margin-bottom: 50px;
+} 
+p.twoText{
+	margin-bottom: 65px;
+}
+	/* !-BottomText */
+
+	/* CheckedList */
+div.list{
+	margin-top: 35px;
+}
+.list ul{
+	font-size: 20px;
+}
+.list>ul>li{
+	list-style: none;
+}
+li.oneList{
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+padding-left: 35px;
+background: url(IMG/check_icon.png) left bottom 10px no-repeat;
+}
+
+li.twoList{
+color: #80b7b3;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+padding-left: 35px;
+background: url(IMG/check_icon.png) left bottom 10px no-repeat;
+}
+
+li.threeList{
+color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: bold;
+padding-left: 35px;
+background: url(IMG/check_icon.png) left bottom 10px no-repeat;
+}
+
+li.fourList p{
+opacity: 0.3;
+color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+text-decoration: line-through;
+padding-left: 35px;
+}
+
+li.fourList{
+background: url(IMG/check_icon.png) left bottom 10px no-repeat;
+}
+	/* !-CheckedList */
+
+	/* Button */
+div.butt{
+width: 199px;
+height: 44px;
+box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+border-radius: 20px;
+background-color: #80b7b3;
+display: inline-block;
+margin-top: 50px;
+position: relative;
+}
+
+.butt p{
+color: #ffffff;
+font-family: "Arial MT";
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2.8px;
+position: absolute;
+left: 30px;
+top: 3px;
+box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+}
+
+.butt img{
+position: absolute;
+right: 27px;
+top: 16px;
+}
+/* !-Button */
